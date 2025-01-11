@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5vh;
+  background-color: #f7d931;
+  color: #DE6D35;
+}
+
+body h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #DE6D35;
+  text-align: center;
+}
+
+.top-bar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: #DE6D35;
+  z-index: 1;
+  padding: 0;
+  margin: -50px 1px 0px 1px;
+  align-items: center;
+}
+
+.top-logo h1 {
+  color: #f7d931;
+  position: relative;
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.top-links {
+  position: relative;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.top-links a {
+  color: #f7d931;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.menu-principal {
+  width: 100%;
+  position: relative;
+  background-image: url("../assets/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-pizza {
+  margin: 50px;
+  position: relative;
+}
+
+.menu-pizza h2 {
+  margin-top: 0;
+  padding-top: 80px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #f7d931;
+}
+
+.pizzas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-pizza {
+  background-color: #f7d931;
+  width: 270px;
+  height: 400px;
+  border: 5px solid #DE6D35;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.card-image {
+  display: flex;
+  width: 100%;
+  padding: 1px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-image img {
+  display: flex;
+  border: 6px solid #DE6D35;
+  width: 230px;
+  height: 180px;
+  border-radius: 15px;
+  padding: 0px;
+}
+
+.card-text {
+  text-align: center;
+  margin: 5px 10px 20px 10px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  height: 120px;
+}
+
+.card-text h3 {
+  padding: 0px;
+  text-decoration: none;
+  color: #DE6D35;
+  margin: 0px 1px 10px 1px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card-text p {
+  font-size: 14px;
+  padding: 5px 1px 10px 1px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.card-preco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #DE6D35;
+  flex-wrap: wrap;
+  margin: 10px 10px 10px 10px;
+  line-height: 30px;
+  font-weight: bold;
+  padding: 0;
+  min-height: 40px;
+}
+
+.card-preco p {
+  text-align: center;
+  color: #f7d931;
+}
+
+.whatsapp img {
+  width: 50px;
+  height: 50px;
+}
+
+.sobre-nos {
+  margin: 50px;
+}
+
+.map-endereco {
+  margin: 50px;
+}
+
+.map-endereco h3 {
+  margin: 50px;
+}
+
+.menu-sobrenos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.sobre-nos h3 {
+  color: #DE6D35;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sobre-nos p {
+  color: #DE6D35;
+  margin: 5px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.map-endereco {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 140px 20px 30px 20px;
+}
+
+.enderecop {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.enderecop h3 {
+  color: #DE6D35;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.enderecop p {
+  color: #DE6D35;
+  margin: 5px;
+  text-align: center;
+  padding: 20px;
+}
