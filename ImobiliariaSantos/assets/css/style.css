@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma", sans-serif;
+}
+
+.topo {
+  text-align: center;
+  padding: 30px 0 20px 0;
+  background-color: #b1defc;
+}
+
+.topo a {
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.topo img {
+  width: 100px;
+  height: 100px;
+}
+
+h2,
+h3 {
+  padding: 20px;
+}
+
+.banner {
+  text-align: center;
+  padding: 20px;
+}
+
+.sobre {
+  text-align: center;
+  padding: 20px;
+}
+
+.servicos {
+  background-color: #1d80c2;
+  text-align: center;
+  padding: 20px;
+}
+
+.paragrafo {
+  padding: 20px;
+}
+
+.contato {
+  padding: 20px;
+}
+
+.contato iframe {
+  padding: 20px;
+  width: 900px;
+  height: 600px;
+}
+
+.paragrafo-contato {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.paragrafo-contato span {
+  color: #ffd770;
+}
+
+.corretores {
+  text-align: center;
+}
+
+.contato {
+  background-color: #1d80c2;
+  text-align: center;
+}
+
+.lista-contato {
+  padding: 20px;
+}
+
+.lista-contato a {
+  padding: 30px;
+  text-decoration: none;
+  margin: 10px;
+}
