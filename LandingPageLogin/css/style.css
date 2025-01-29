@@ -10,12 +10,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(120deg, #5935fc, #3812df);
+  background: linear-gradient(135deg, #000000, #3812df, #ffffff);
   font-family: Arial, sans-serif;
 }
 
 .main {
-  background: linear-gradient(120deg, #3812df, #5935fc);
+  background: linear-gradient(135deg, #ffffff, #3812df, #000000);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,9 +67,9 @@ button:hover {
 }
 
 .btn-register {
-  background-color: #4caf50;
+  background-color: #db12c0;
 }
 
 .btn-register:hover {
-  background-color: #388e3c;
+  background-color: #9c0b89;
 }
