@@ -8,3 +8,52 @@ body {
   color: #e3ccba;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+.top {
+  width: 100%;
+  max-width: 1940px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #171717;
+  box-shadow: 0px 4px 8px #1f1e1e;
+}
+
+.top img {
+  width: 80px;
+  height: 80px;
+}
+
+.top h1 {
+  font-size: 24px;
+  color: #e3ccba;
+  text-align: left;
+  margin-left: -200px;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #e3ccba;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  color: #f4a261;
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+}
