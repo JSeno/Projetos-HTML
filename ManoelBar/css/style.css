@@ -8,7 +8,7 @@ body {
   background-color: #171717;
   color: #e3ccba;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding-top: 110px;
+  padding-top: 120px; /* Aumentei o padding-top para evitar sobreposição */
   font-size: 22px;
 }
 
@@ -70,17 +70,14 @@ body {
   margin-bottom: 50px;
 }
 
-.lista-container {
+.lista-imagem-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 400px;
-  padding: 20px;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.lista-container {
+  flex: 1;
 }
 
 .lista {
@@ -92,6 +89,39 @@ body {
 
 .lista li {
   padding: 15px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.lista li:hover {
+  background-color: rgba(244, 162, 97, 0.1); /* Efeito de hover sutil */
+}
+
+.imagem-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 300px;
+}
+
+.imagem-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  display: none; /* Inicialmente escondido */
+}
+
+/* Exibir imagens ao passar o mouse sobre os itens da lista */
+.lista-1:hover ~ .imagem-container img[data-imagem="1"],
+.lista-2:hover ~ .imagem-container img[data-imagem="2"],
+.lista-3:hover ~ .imagem-container img[data-imagem="3"],
+.lista-4:hover ~ .imagem-container img[data-imagem="4"],
+.lista-5:hover ~ .imagem-container img[data-imagem="5"] {
+  display: block;
 }
 
 .sobre {
@@ -102,6 +132,24 @@ body {
 .localizacao {
   margin: 25px;
   padding: 15px;
+}
+
+.contato {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.contato a {
+  text-decoration: none;
+  color: #e3ccba;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.contato a:hover {
+  color: #f4a261;
 }
 
 .footer {
